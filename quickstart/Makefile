@@ -1,3 +1,3 @@
 clean:
 	echo "deleting generated HTML"
-	rm -rf public
+	rm -rf quickstart/public
