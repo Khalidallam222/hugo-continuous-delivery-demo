@@ -5,3 +5,4 @@ draft: false
 ---
 
 This is a Hugo site with a fully automated deployment pipeline This line proves Continous Delivery.
+Test Automated CodeBuild deployment!
