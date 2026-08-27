@@ -15,6 +15,7 @@ phases:
       - rm -rf /tmp/*
   build:
     commands:
+      - cd quickstart
       - make clean
       - hugo
       - aws s3 sync public/ s3://stock-market-dwh-khalid3llam/ --region us-east-1 --delete
