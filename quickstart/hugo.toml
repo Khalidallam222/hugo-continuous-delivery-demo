@@ -1,4 +1,8 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "http://stock-market-dwh-khalid3llam.s3-website-us-east-1.amazonaws.com"
+languageCode = "en-us"
+title = "My Hugo Site"
 theme = "ananke"
+
+[[deployment.targets]]
+  name = "awsbucket"
+  URL = "s3://stock-market-dwh-khalid3llam/?region=us-east-1"
